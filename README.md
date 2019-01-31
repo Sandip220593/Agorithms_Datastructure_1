@@ -1,4 +1,4 @@
-# Agorithms_Datastructure_1
+# Hackerrank_Solutions_Agorithms_Datastructure_Java
 ## Algorithms and Datastructure:
 
 Algorithms and Datastructure are the backbone of the programming.

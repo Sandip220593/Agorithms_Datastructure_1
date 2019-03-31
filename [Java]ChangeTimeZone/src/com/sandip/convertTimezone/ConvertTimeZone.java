@@ -16,7 +16,8 @@ public class ConvertTimeZone {
 	
 	public static void main(String[] args) {
 		Date date = new Date();
-		System.out.println("System Date : "+formatDate(date, DATE_FORMAT, "WST"));
+		System.out.println("GMT Time : "+formatDate(date, DATE_FORMAT, "GMT"));
+		System.out.println("DST Time : "+formatDate(date, DATE_FORMAT, "Europe/London"));
 		String str[]=TimeZone.getAvailableIDs();
 		/*for(String s:str)
 			System.out.println(s);*/
